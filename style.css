@@ -135,6 +135,8 @@ main {
 .track-section{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .track-card{
