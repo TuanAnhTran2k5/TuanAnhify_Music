@@ -68,12 +68,6 @@
             </button>
           </div>
 
-          <iframe id="iframe" title="Spotify Embed: Recommendation Playlist "
-            src="https://open.spotify.com/embed/track/5rSAUmbOg4giDrM29vUyHe?utm_source=generator&theme=0" width="100%"
-            height="100%" frameBorder="0"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-        </iframe>
-
           <!-- track-section -->
           <div id="track-section" class="track-section">
             <!-- <div class="track-card">
@@ -101,6 +95,33 @@
         </section>
       </div>
     </main>
+
+    <div id="modal" class="modal">
+
+     
+
+      <div class="modal-header">
+
+         <div>
+        <h2 id="modal-name" class="modal-name">Ten bai hat </h2>
+        <h4 id="modal-artist" class="modal-artist">ten nghe si </h4>
+      </div>
+        <i onclick="closeModal()" class="fa-solid fa-circle-xmark"></i>
+      </div>
+
+
+      <iframe
+        id="iframe"
+        title="Spotify Embed: Recommendation Playlist "
+        src="https://open.spotify.com/embed/track/0tyrLp1zVAjN3EV95EuOzQ?utm_source=generator&theme=0"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      >
+      </iframe>
+    </div>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"
