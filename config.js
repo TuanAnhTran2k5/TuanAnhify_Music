@@ -19,8 +19,6 @@ const SPOTIFY_CONFIG = {
   get REDIRECT_URI() {
     return getCurrentURL();
   },
-
-
 };
 
 console.log(`

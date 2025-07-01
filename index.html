@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./button.css" />
+    <link rel="stylesheet" href="./button2.css" />
   </head>
 
   <body>
@@ -44,8 +45,9 @@
           <div class="search-container">
             <i class="fa-solid fa-search"></i>
             <input
+              id="input-search"
               type="text"
-              placeholder=" Tim kiem bai hat, nghe si, album,....."
+              placeholder=" Tìm kiếm bài hát, nghệ sĩ, album,....."
             />
           </div>
         </section>
@@ -53,17 +55,13 @@
         <!-- Card Section -->
         <section class="card-section">
           <div class="section-header">
-            <h2>Nhac hot VN</h2>
+            <h2>Nhạc hot VN</h2>
 
-            <button type="button" class="btn">
-              <strong>Mo list nhac cua ban</strong>
-              <div id="container-stars">
-                <div id="stars"></div>
-              </div>
-
-              <div id="glow">
-                <div class="circle"></div>
-                <div class="circle"></div>
+            <!-- From Uiverse.io by Wendell47 -->
+            <button class="button">
+              Mở list nhạc của bạn
+              <div class="hoverEffect">
+                <div></div>
               </div>
             </button>
           </div>
@@ -97,18 +95,13 @@
     </main>
 
     <div id="modal" class="modal">
-
-     
-
       <div class="modal-header">
-
-         <div>
-        <h2 id="modal-name" class="modal-name">Ten bai hat </h2>
-        <h4 id="modal-artist" class="modal-artist">ten nghe si </h4>
-      </div>
+        <div>
+          <h2 id="modal-name" class="modal-name">Ten bai hat</h2>
+          <h4 id="modal-artist" class="modal-artist">ten nghe si</h4>
+        </div>
         <i onclick="closeModal()" class="fa-solid fa-circle-xmark"></i>
       </div>
-
 
       <iframe
         id="iframe"
